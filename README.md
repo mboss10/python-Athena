@@ -12,6 +12,6 @@ More details below.
 ## Installation
 The first step is to install the right libraries
 > [!TIP]
-> There are several methods to create a python wrapper to coonect and query Athena databases.\
+> There are several methods to create a python wrapper to connect and query Athena databases.\
 > The following article [Connecting to AWS Athena databases using Python]([https://pages.github.com/](https://medium.com/codex/connecting-to-aws-athena-databases-using-python-4a9194427638)https://medium.com/codex/connecting-to-aws-athena-databases-using-python-4a9194427638) is very helpful.\
 I decided to go with PyAthena + SQLAlchemy because it felt more natural to me but it seems according to the article that Boto3 offers better performances. I'll give it a try another time.
