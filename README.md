@@ -42,4 +42,6 @@ engine = create_engine(conn_str.format(
     s3_staging_dir="[we enter our S3 bucket here - s3://our_bucket/"]
 ))
 ```
-
+  
+## Query the data
+Everything is ready for us to query the data. We will leverage the `pandas` library to use the `read_sql` function to put the results of our SQL query into a DataFrame
