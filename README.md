@@ -45,10 +45,11 @@ engine = create_engine(conn_str.format(
   
 ## Query the data
 Everything is ready for us to query the data. We will leverage the `pandas` library to use the `read_sql` function and put the results of our SQL query into a DataFrame.\
-Example of a query to get the all data from the events table. We put them into a DataFrame called `events_df`\
+Example of a query to get the all data from the events table. We put them into a DataFrame called `events_df`
 ```
 import pandas as pd
 
 events_df = pd.read_sql("SELECT * FROM events", engine)
 events_df
 ```
+![Screenshot of the SQL query results to select all events](https://github.com/mboss10/python-Athena/blob/main/Events_SQL_query.png)
