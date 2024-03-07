@@ -53,3 +53,5 @@ events_df = pd.read_sql("SELECT * FROM events", engine)
 events_df
 ```
 ![Screenshot of the SQL query results to select all events](https://github.com/mboss10/python-Athena/blob/main/Events_SQL_query.png)
+  
+More queries and DataFrame results are available in my [Jupyter notebook](https://github.com/mboss10/python-Athena/blob/main/Athena%20connection%20and%20exploration.ipynb)
